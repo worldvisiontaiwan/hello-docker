@@ -13,4 +13,4 @@ ADD run.sh /run.sh
 ENV LISTEN_PORT=80
 
 EXPOSE 80
-CMS /run.sh
+CMD /run.sh
